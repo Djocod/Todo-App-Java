@@ -4,7 +4,7 @@ import { Task } from './task.model';
 
 @Injectable({ providedIn: 'root' })
 export class TaskService {
-  private api = 'https://todo-backend-production.up.railway.app/api/tasks';
+  private api = 'https://todo-app-java-production-f0e6.up.railway.app/api/tasks';
 
   constructor(private http: HttpClient) {}
 

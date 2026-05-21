@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin(origins ={
     "http://localhost:4200", 
-    "https://agent-6a0eb30bfac5b41a9a5bdf3f--todo-java.netlify.app/"
+    "https://agent-6a0eb30bfac5b41a9a5bdf3f--todo-java.netlify.app"
 } 
 )
     @RequestMapping("api/tasks")
